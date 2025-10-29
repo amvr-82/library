@@ -1,3 +1,6 @@
+const BtnBuild = document.getElementById("btn-build");
+const ModalBuild = document.getElementById("modal-screen");
+const CloseModal = document.getElementById("close-modal");
 const modalScreen = document.querySelector("#modal-screen");
 const openModalBtn = document.querySelector("#btn-build");
 const closeModalIcon = document.querySelector("#close-modal");
