@@ -9,3 +9,4 @@ function close_modal() {
 }
 document.addEventListener("click", close_modal());
 CloseModal.addEventListener("click", close_modal());
+BtnBuild.addEventListener("click", Open_modal());
