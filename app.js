@@ -53,7 +53,7 @@ createBtn.addEventListener("click", () => {
   const release = releaseInput.value.trim();
 
   if (!title || !author || !release) {
-    alert("لطفاً تمام فیلدها را پر کن 🫠");
+    alert("لطفاً همه فیلدها را پر کن ");
     return;
   }
 
