@@ -122,6 +122,8 @@ header h1 {
 
 /* ===== Modal ===== */
 .modal-screen {
+  backdrop-filter: blur(8px);
+
   position: fixed;
   top: 0;
   right: 0;
@@ -241,5 +243,15 @@ footer.copyright {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(15px);
   }
 }
